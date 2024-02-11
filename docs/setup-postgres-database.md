@@ -10,7 +10,7 @@
 
     ```psql
     CREATE USER transform_role with
-        PASSWORD 'postgres'
+        PASSWORD 'some-password'
         NOSUPERUSER
         NOCREATEDB
         NOCREATEROLE

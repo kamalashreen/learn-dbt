@@ -40,7 +40,7 @@
     #(1 row)
     ```
 
-4. Follow steps mentioned in [setup-postgres-database.md](setup-postgres-database.md) to complete the database setup.
+4. Follow steps mentioned in [setup-postgres-database.md](docs/setup-postgres-database.md) to complete the database setup.
 
 5. Configure dbt profiles
     - Run `dbt debug --config-dir` to find the directory containing dbt profiles configuration. Path is

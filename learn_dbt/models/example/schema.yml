@@ -19,3 +19,11 @@ models:
         tests:
           - unique
           - not_null
+
+  - name: postgres_customer_purchases
+    description: "The total purchases for each customer in postgres sample data"
+    columns:
+      - name: customer_key
+        tests:
+          - unique
+          - not_null
