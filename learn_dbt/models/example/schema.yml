@@ -1,4 +1,3 @@
-
 version: 2
 
 models:
@@ -24,6 +23,14 @@ models:
     description: "The total purchases for each customer in postgres sample data"
     columns:
       - name: customer_key
+        tests:
+          - unique
+          - not_null
+
+  - name: cumulative_orders_by_date
+    description: "Cumulative sales for the order date"
+    columns:
+      - name: order_date
         tests:
           - unique
           - not_null
