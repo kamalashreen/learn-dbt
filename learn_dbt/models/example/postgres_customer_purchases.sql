@@ -8,4 +8,4 @@ SELECT
 FROM public.customers c
 LEFT JOIN public.orders o
     ON c.customer_key = o.customer_key
-GROUP BY c.customer_key, c.name, c.nation_key
+{{ group_by(3) }}

@@ -37,3 +37,4 @@ models:
 
   - name: dates
     description: "Incremental load of dates"
+  - name: group_orders_to_segments
