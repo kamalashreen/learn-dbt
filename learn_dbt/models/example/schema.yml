@@ -34,3 +34,6 @@ models:
         tests:
           - unique
           - not_null
+
+  - name: dates
+    description: "Incremental load of dates"
